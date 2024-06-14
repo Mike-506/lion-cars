@@ -1,0 +1,247 @@
+.footer-grid {
+  background-color: var(--footer-color);
+  color: #fff;
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+  grid-template-areas: "link . contact legal" "line line line line" "brand . icons icons";
+  row-gap: 1rem;
+  margin-top: 0.3rem;
+  padding: 1rem 0 0 1rem;
+  cursor: default;
+  border-radius: 1.5rem 1.5rem 0 0;
+  -webkit-border-radius: 1.5rem 1.5rem 0 0;
+  -moz-border-radius: 1.5rem 1.5rem 0 0;
+  -ms-border-radius: 1.5rem 1.5rem 0 0;
+  -o-border-radius: 1.5rem 1.5rem 0 0;
+}
+
+
+/* Logo */
+.logo {
+  display: flex;
+  align-content: center;
+  grid-area: link;
+}
+
+.logo a {
+  width: 140px;
+}
+
+.logo h2 {
+  transition: color .3s ease-in;
+  -webkit-transition: color .3s ease-in;
+  -moz-transition: color .3s ease-in;
+  -ms-transition: color .3s ease-in;
+  -o-transition: color .3s ease-in;
+  width: fit-content;
+  text-align: center;
+  font-size: 1.5rem;
+  margin: auto;
+}
+
+.logo a:hover {
+  color: var(--footer-hover);
+}
+
+.logo-img {
+  width: 140px;
+  height: 80px;
+}
+
+
+/* Legal & Follow*/
+.legal {
+  grid-area: legal;
+  display: flex;
+}
+
+.contact {
+  grid-area: contact;
+  display: flex;
+}
+
+.legal a:hover,.contact a:hover {
+  color: var(--footer-hover);
+}
+
+.contact, .legal {
+  font-size: 25px;
+  a {
+    font-size: 20px;
+    transition: color .35s ease-in;
+    -webkit-transition: color .35s ease-in;
+    -moz-transition: color .35s ease-in;
+    -ms-transition: color .35s ease-in;
+    -o-transition: color .35s ease-in;
+  }
+}
+
+.contact {
+  margin-left: -30px;
+}
+
+.contact a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+  padding-left: 27px;
+}
+
+
+/* Division Line */
+.line {
+  grid-area: line;
+  border: 1.2px solid;
+  margin-right: 1rem;
+}
+
+/* Rights */
+.authorRigths {
+  display: flex;
+  grid-area: brand;
+  align-content: center;
+  font-size: large;
+}
+
+
+/* SocialNet Icons*/
+.socialNet {
+  display: flex;
+  grid-area: icons;
+  justify-content: space-around;
+  margin-right: 2rem;
+}
+
+.icons {
+  width: 37px;
+  font-size: 34px;
+  transition: all 0.3s ease-in;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  -ms-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+  margin-bottom: 1rem;
+}
+
+.icons:hover {
+  font-size: 37px;
+  color: var(--footer-hover);
+}
+
+
+/* Adaptable to Screen */
+@media screen and (max-width: 430px) {
+  .footer-grid {
+    grid-template-areas: "link contact contact legal" "line line line line" "brand . icons icons";
+  }
+
+  .logo h2 {
+    font-size: 1rem;
+    width: 100px;
+  }
+
+  .logo .logo-img {
+    width: 100px;
+    height: 60px;
+  }
+
+  .legal, .contact {
+    margin-right: 12px;
+    font-weight: bold;
+    
+    ul {
+    font-size: 13px;
+    
+    }
+    a {
+      font-size: 13px;
+      font-weight: normal;
+    }
+  }
+
+  .contact {
+    margin-left: 30px;
+    margin-top: 0;
+    a {
+      padding-left: 0;
+      margin-top: 7px;
+    }
+  }
+
+  .authorRigths {
+    font-size: .7rem;
+  }
+
+  .icons {
+    width: 28px;
+    font-size: 26px;
+  }
+
+  .icons:hover {
+    font-size: 28px;
+  }
+
+  .socialNet {
+    margin-right: 1rem;
+    column-gap: 15px;
+  }
+
+}
+
+@media screen and (max-width: 380px) {
+  .contact {
+    margin-right: 0;
+    margin-top: 0;
+  }
+}
+
+
+@media screen and (min-height: 1000px) {
+  .footer-grid {
+    grid-template-areas: "link . contact legal" "line line line line" "brand . icons icons";
+    padding-top: 30px;
+  }
+
+  .logo {
+    display: flex;
+    justify-content: center;
+    .logo-img {
+      width: 150px;
+      height: 90px;
+    }
+    h2 {
+      font-size: 1.5rem;
+      width: auto;
+    }
+  }
+
+  .follow, .legal {
+    ul {
+      font-weight: bold;
+      font-size: 22px;
+    }
+    li {
+      font-size: 20px;
+      font-weight: normal;
+    }
+  }
+
+  .line {
+    margin: 20px 0;
+    margin-right: 1rem;
+  }
+
+  .authorRigths {
+    font-size: 1.2rem;
+  }
+
+  .icons {
+    width: 43px;
+    font-size: 40px;
+  }
+
+  .icons:hover {
+    font-size: 43px;
+  }
+}

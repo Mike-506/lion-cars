@@ -3,25 +3,82 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --font-color: #19284C;
+  --background-color: linear-gradient(180deg, #7bb4e3,#a3ceef, #dfe9f5 70%);
+  --text-color: #fff;
+  --box-shadow-color: #002ead;
+  --border-color: #002ead;
+  --button-color: dodgerblue;
+  --button-hover: linear-gradient(270deg, rgba(30,144,255,1) 0%, rgba(0,212,255,1) 100%);
+  --input-border: linear-gradient(90deg, rgba(30,144,255,1) 0%, rgba(0,212,255,1) 100%);
+  --footer-color: #7bb4e3;
+  --footer-hover: #19284C;
+  --card-title: #3e77b6;
+  --card-text-color: white;
+  --form-button: #7bb4e3; 
+  --form-button-hover: #a3ceef;
+  --form-text-color: #fff;
+  --form-text-color-hover: black;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+[theme="dark"]{
+  --font-color: #fff;
+  --background-color: linear-gradient(180deg, #19284C,#003153, #122562 70%);
+  --text-color: #7bb4e3;
+  --box-shadow-color: black;  
+  --border-color: black;
+  --button-color: #004987;
+  --button-hover: linear-gradient(270deg, #004987 0%, #3e77b6 100%);
+  --input-border: linear-gradient(90deg, #004987 0%, #3e77b6 100%);
+  --footer-color: #19284C;
+  --footer-hover: #7bb4e3;
+  --card-title: #004987;
+  --card-text-color: black;
+  --form-button: #3e77b6; 
+  --form-button-hover: #004987;
+  --form-text-color: black;
+  --form-text-color-hover: #fff;
+}
+
+html {
+  background-image: var(--background-color);
+  color: var(--font-color);
+  text-align: center;
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  height: 100%;
 }
+
+.page {
+  margin-top: 150px;
+  margin-bottom: 50px;
+}
+
+/*buttons*/
+button {
+  padding: 8px;
+  border: transparent;
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+  background: var(--button-color);
+  color: white;
+  border-radius: 7px;
+  text-align: center;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+}
+
+button:hover {
+  background: var(--button-hover);
+}
+ 
+button:active {
+  transform: translate(0em, 0.1em);
+  -webkit-transform: translate(0em, 0.1em);
+  -moz-transform: translate(0em, 0.1em);
+  -ms-transform: translate(0em, 0.1em);
+  -o-transform: translate(0em, 0.1em);
+}
+

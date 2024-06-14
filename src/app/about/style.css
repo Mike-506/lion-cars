@@ -1,0 +1,51 @@
+.img-about {
+  margin: 40px auto;
+  border-radius: 25px; 
+  box-shadow: 5px 5px 12px black;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+}
+
+img {
+  aspect-ratio: 16 / 10;
+  width: 500px;
+  height: auto;
+}
+
+.about-page {
+  color: var(--font-color);
+}
+
+.about-page h3 {
+  font-size: xx-large;
+}
+
+.about-page .welcome {
+  font-size: 22px;
+  margin-bottom: 40px;
+}
+
+.about-page .about-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 25px;
+  margin-bottom: 5px;
+}
+
+
+@media screen and (max-width: 430px) {
+  .about-page {
+    font-size: medium;
+  }
+
+  .about-page h3 {
+    font-size: x-large;
+    margin-bottom: 15px;
+  }
+
+  .about-page .welcome {
+    font-size: 19px;
+  }
+}

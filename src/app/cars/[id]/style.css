@@ -1,0 +1,46 @@
+.car-title {
+  margin-top: 30px;
+  margin-bottom: 60px;
+  font-size: 45px;
+}
+
+.car-desc {
+  font-size: 25px;
+  margin-top: 70px;
+}
+
+
+/* Responsive related to heigth */
+@media screen and (min-height: 900px) {
+  .car-title {
+    margin-bottom: 60px;
+    font-size: 40px;
+  }
+  
+  .car-desc {
+    margin-bottom: 120px;
+    margin-top: 50px;
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-height: 760px) {
+  .car-title {
+    margin-bottom: 30px;
+    font-size: 35px;
+  }
+  
+  .car-desc {
+    margin-bottom: 85px;
+    margin-top: 35px;
+    font-size: 20px;
+  }
+}
+
+
+/* Responsive related to width */
+@media screen and (max-width: 430px) {
+  .car-desc {
+    font-size: 17px;
+  }
+}

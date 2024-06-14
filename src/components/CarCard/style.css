@@ -1,0 +1,131 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin: 30px;
+}
+
+.grid-item {
+  display: flex;
+  flex-direction: column;
+  background-color: aliceblue;
+  padding: 0.5rem;
+  cursor: default;
+  height: auto;
+  width: 360px;
+  color: black;
+  h5 {
+    color: var(--card-text-color);
+  }
+}
+
+.carImg {
+  width: 100%;
+  height: 45%;
+  aspect-ratio: 16 / 9;
+  border-radius: 0 0 5px 5px;
+}
+
+.shadow-box {
+  box-shadow: 7px 5px 15px 0px rgba(0, 0, 0, 0.463);
+}
+
+.card-p {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  gap: 20px 10px;
+  text-align: start;
+  margin: 10px; 
+}
+
+.cars-button {
+  button {
+    margin-top: 10px;
+    width: 100%;
+  }
+}
+
+.car-brand-container {
+  margin-bottom: 0;
+  display: flex;
+  width: 100%;
+  height: 10%;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--card-title);
+  border-radius: 5px 5px 0 0;
+  -webkit-border-radius: 5px 5px 0 0;
+  -moz-border-radius: 5px 5px 0 0;
+  -ms-border-radius: 5px 5px 0 0;
+  -o-border-radius: 5px 5px 0 0;
+}
+
+
+/* responsive */
+@media screen and (max-width: 1200px) {
+  .grid-container {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.2rem;
+  }
+
+  .grid-item {
+    width: 295px;
+  }
+
+  .car-brand-container h5 {
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .grid-container {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+  }
+  .grid-item {
+    width: 270px;
+    p {
+      font-size: 14px;
+    }
+  }
+  .car-brand-container h5 {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 870px) {
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .grid-item {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr);
+    .grid-item {
+      width: 290px;
+    }
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr);
+    .grid-item {
+      width: 260px;
+    }
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .grid-container {
+    grid-template-columns: repeat(1, 1fr);
+    .grid-item {
+      width: 300px;
+    }
+  }
+}

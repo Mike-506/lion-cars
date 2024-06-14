@@ -1,0 +1,21 @@
+.privacy-page ul li {
+  list-style: upper-roman;
+  text-align: start;
+  margin-top: 40px;
+  font-size: 17px;
+  font-weight: bold; 
+}
+
+.privacy-page p {
+  margin: 10px 0;
+  font-weight: normal;
+}
+
+.privacy-page p span {
+  font-weight: normal;
+  font-size: 15px;
+  margin-top: 3px;
+  margin-left: 5px;
+}
+
+

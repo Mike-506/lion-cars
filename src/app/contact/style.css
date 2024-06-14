@@ -1,0 +1,12 @@
+.contact-page {
+  width: 80%;
+}
+
+.contact-page h3 {
+  font-size: xx-large;
+}
+
+.contact-page .contact-text {
+  font-size: 22px;
+  margin-bottom: 40px;
+}

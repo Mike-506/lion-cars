@@ -1,0 +1,12 @@
+.legal-page ul li {
+  list-style: upper-roman;
+  text-align: start;
+  margin-top: 40px;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.legal-page p {
+  margin-top: 10px;
+  font-weight: lighter;
+}

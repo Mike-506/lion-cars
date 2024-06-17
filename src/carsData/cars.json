@@ -1,0 +1,237 @@
+
+{"cars":[
+  {
+    "brand":"Bugatti",
+    "model":"Veyron",
+    "made":"France",
+    "img": "https://www.diariomotor.com/imagenes/2012/10/bugatti-veyron-vision-lateral-504130-1280x854.jpg",
+    "engine":"7.9cc V12",
+    "hp": "7.500rpm",
+    "torque": "1.500Nm",
+    "passengers": 2,
+    "price": "$2.650.000",
+    "description":["The Buggatti Veyron marked a before and after in engineering by managing to fulfill its promise of manufacturing a car capable of achieving a acceleration from 0 to 100 km/h in 2.5 seconds and a maximum speed of 431,072 km/h in the 1,200 HP Super Sport version with which the maximum speed record was broken."],
+    "slides":[ 
+      {"url": "https://www.diariomotor.com/imagenes/2012/10/bugatti-veyron-vision-lateral-504130-1280x854.jpg",
+      "id":"1"
+      },
+
+    {"url":"https://www.diariomotor.com/imagenes/2012/10/bugatti-veyron-lateral-dinamica-504122-1280x854.jpg",
+    "id":"2"
+    },
+
+    {"url":"https://www.diariomotor.com/imagenes/2012/10/bugatti-veyron-vista-aerea-504123-1280x854.jpg",
+    "id":"3"
+    },
+
+    {"url":"https://www.diariomotor.com/imagenes/2012/10/interior-bugatti-veyron-detalle-503949-1280x854.jpg",
+    "id":"4"
+    },
+
+    {"url":"https://www.diariomotor.com/imagenes/2012/10/instrumentacion-bugatti-veyron-503952-1280x854.webp",
+    "id":"5" 
+    },
+       
+    {"url":"https://www.diariomotor.com/imagenes/2012/10/vista-motor-bugatti-veyron-504105-1280x854.jpg",
+    "id":"6"
+    }
+  ],
+    "id": "bugatti"
+  },
+
+  {
+    "brand":"McLaren",
+    "model":"750S",
+    "made":"UK",
+    "img":"https://www.diariomotor.com/imagenes/2023/04/mclare-750s-2023-61-6448e3877c2cd-950x633.jpg",
+    "engine":"3.9cc V8",
+    "hp": "7.500rpm",
+    "torque": "800Nm",
+    "passengers": 2,
+    "price": "$324.000",
+    "description":["The McLaren 750S is a true supercar, with very aggressive and marked lines that, however, are harmonious from a visual point of view, since there are no strong edges or vertices, but rather surfaces designed and built with extraordinary precision so that when crossing. The McLaren 750S can boast figures within the reach of very few vehicles in history: it goes from 0 to 100 km/h in 2.8 seconds."],
+    "slides":[ 
+      {"url":"https://www.diariomotor.com/imagenes/2023/04/mclare-750s-2023-61-6448e3877c2cd-950x633.jpg",
+      "id":"1"
+      },
+
+    {"url":"https://www.diariomotor.com/imagenes/2023/04/mclare-750s-2023-68-6448e3a374541-950x633.jpg",
+    "id":"2"
+    },
+
+    {"url":"https://www.diariomotor.com/imagenes/2023/04/mclare-750s-2023-69-6448e3a779c68-950x633.jpg",
+    "id":"3"
+    },
+
+    {"url":"https://www.diariomotor.com/imagenes/2023/04/mclare-750s-2023-28-6448e2e39918a-950x633.jpg",
+    "id":"4"
+    },
+
+    {"url":"https://www.diariomotor.com/imagenes/2023/04/mclare-750s-2023-46-6448e33e91353-950x534.jpg",
+    "id":"5" 
+    },
+       
+    {"url":"https://www.diariomotor.com/imagenes/2023/04/mclare-750s-2023-30-6448e2eb99e2c-950x633.webp",
+    "id":"6"
+    }
+  ],
+    "id": "mclaren"
+  },
+
+  { 
+    "brand":"Lamborghini",
+    "model":"Aventador",
+    "made":"Italy",
+    "img":"https://www.diariomotor.com/imagenes/2021/07/lamborghini-aventador-luz-solar-769071-1280x720.jpg",
+    "engine":"5.0cc V8",
+    "hp": "7.000rpm",
+    "torque": "569Nm",
+    "passengers": 2,
+    "price": "$333.633",
+    "description":["The Lamborghini Huracan is the perfect fusion of technology and design. With its crisp, streamlined lines, designed to cut through the air and tame the road, you’ll get a thrill just by looking at it."],
+    "slides":[ 
+      {"url":"https://www.diariomotor.com/imagenes/2021/07/lamborghini-aventador-luz-solar-769071-1280x720.jpg",
+      "id":"1"
+      },
+
+    {"url":"https://www.diariomotor.com/imagenes/2021/07/lamborghini-aventador-lateral-dinamico-769072-1280x720.jpg",
+    "id":"2"
+    },
+
+    {"url":"https://www.diariomotor.com/imagenes/2021/07/aventador-trasera-poderosa-769075-1280x720.jpg",
+    "id":"3"
+    },
+
+    {"url":"https://www.diariomotor.com/imagenes/2021/07/vista-dinamica-lamborghini-aventador-769074-1280x720.jpg",
+    "id":"4"
+    },
+
+    {"url":"https://www.diariomotor.com/imagenes/2021/07/interior-lamborghini-aventador-cuero-rojo-negro-769081-1280x853.webp",
+    "id":"5" 
+    },
+       
+    {"url":"https://www.diariomotor.com/imagenes/2021/07/interior-aventador-perspectiva-769095-1280x851.webp",
+    "id":"6"
+    }
+  ],
+    "id": "lambo"
+  },
+
+  {
+    "brand":"Ferrari",
+    "model":"Roma",
+    "made":"Italy",
+    "img":"https://www.diariomotor.com/imagenes/2020/09/ferrari-roma-vinedos-718292-1280x853.jpg",
+    "engine":"3.9cc V8",
+    "hp": "7.500rpm",
+    "torque": "760Nm",
+    "passengers": 4,
+    "price": "$379.000",
+    "description":["The Ferrari Roma has engaging handling and excellent ride quality, plus solid performance - the elegant Roma achieves its GT mission, with beautiful design, more spacious than it looks, and available as a convertible."],
+    "slides":[ 
+      {"url":"https://www.diariomotor.com/imagenes/2020/09/ferrari-roma-vinedos-718292-1280x853.jpg",
+      "id":"1"
+      },
+
+    {"url":"https://www.diariomotor.com/imagenes/picscache/1440x655c/ferrari-roma-grigio-titanio-070_1440x655c.jpg",
+    "id":"2"
+    },
+
+    {"url":"https://www.diariomotor.com/imagenes/2020/09/ferrari-roma-vista-lateral-718315-1280x853.jpg",
+    "id":"3"
+    },
+
+    {"url":"https://www.diariomotor.com/imagenes/2020/09/volante-ferrari-roma-718258-1280x853.webp",
+    "id":"4"
+    },
+
+    {"url":"https://www.diariomotor.com/imagenes/picscache/1440x655c/ferrari-roma-grigio-titanio-076_1440x655c.jpg",
+    "id":"5" 
+    },
+       
+    {"url":"https://www.diariomotor.com/imagenes/2020/09/ferrari-roma-grigio-titanio-031-1280x853.webp",
+    "id":"6"
+    }
+  ],
+    "id": "ferrari"
+  },
+
+  { 
+  "brand":"Aston Martin",
+  "model":"Vantage",
+  "made":"UK",
+  "img":"https://www.diariomotor.com/imagenes/2024/05/aston-martin-vantage-2024-prueba-134mdm-1280x853.webp",
+  "engine":"3.9cc V8",
+  "hp": "5.500rpm",
+  "torque": "800Nm",
+  "passengers": 2,
+  "price": "$165.086",
+  "description":["The Aston Martin Vantage is a sport car with a very aggressive design, inspired by the racing cars of yesteryear. The Vantage is capable of reaching 100 km/h from a standstill in just 3.5 seconds, with a top speed of 325 km/h."],
+  "slides":[ 
+    {"url":"https://www.diariomotor.com/imagenes/2024/05/aston-martin-vantage-2024-prueba-134mdm-1280x853.webp",
+    "id":"1"
+    },
+
+  {"url":"https://www.diariomotor.com/imagenes/2024/05/aston-martin-vantage-2024-prueba-135mdm-1280x853.webp",
+  "id":"2"
+  },
+
+  {"url":"https://www.diariomotor.com/imagenes/2024/05/aston-martin-vantage-2024-prueba-143mdm-1280x852.webp",
+  "id":"3"
+  },
+
+  {"url":"https://www.diariomotor.com/imagenes/2024/05/aston-martin-vantage-2024-prueba-158mdm-1280x853.webp",
+  "id":"4"
+  },
+
+  {"url":"https://www.diariomotor.com/imagenes/2024/05/aston-martin-vantage-2024-prueba-168mdm-1280x853.webp",
+  "id":"5" 
+  },
+     
+  {"url":"https://www.diariomotor.com/imagenes/2024/05/aston-martin-vantage-2024-prueba-151mdm-1280x853.webp",
+  "id":"6"
+  }
+],
+  "id": "aston"
+  },
+
+  {
+    "brand":"Rolls-Royce",
+  "model":"Phantom",
+  "made":"UK",
+  "img":"https://www.diariomotor.com/imagenes/2017/07/rolls-royce-phantom-2017-23-1280x582.webp",
+  "engine":"5.0 cc V8",
+  "hp": "5.000rpm",
+  "torque": "900Nm",
+  "passengers": 5,
+  "price": "$500.000",
+  "description":["Comfort and luxury are the top priority of the Rolls-Royce Phantom. The design of the entire interior offers an undeniable classic aftertaste. There is no other car that can offer such a combination of luxury and space as the Phantom achieves."],
+  "slides":[ 
+    {"url":"https://www.diariomotor.com/imagenes/2017/07/rolls-royce-phantom-2017-23-1280x582.webp",
+    "id":"1"
+    },
+
+  {"url":"https://www.diariomotor.com/imagenes/picscache/1440x655c/rolls-royce-phantom-2017-29_1440x655c.jpg",
+  "id":"2"
+  },
+
+  {"url":"https://www.diariomotor.com/imagenes/picscache/1440x655c/rolls-royce-phantom-2017-28_1440x655c.jpg",
+  "id":"3"
+  },
+
+  {"url":"https://www.diariomotor.com/imagenes/2017/07/rolls-royce-phantom-2017-18-1280x854.webp",
+  "id":"4"
+  },
+
+  {"url":"https://www.diariomotor.com/imagenes/2017/07/rolls-royce-phantom-2017-19-1280x854.webp",
+  "id":"5" 
+  },
+     
+  {"url":"https://www.diariomotor.com/imagenes/2017/07/rolls-royce-phantom-2017-08-1280x841.webp",
+  "id":"6"
+  }
+],
+  "id": "roll"
+  }
+
+]}

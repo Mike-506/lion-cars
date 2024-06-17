@@ -1,5 +1,6 @@
 import Carousel from "@/components/Carousel";
 import './style.css';
+import carsData from '@/carsData/cars.json';
 
 async function getCar(id) {
   const answer = await fetch(`http://localhost:4004/cars/${id}`);
@@ -7,8 +8,16 @@ async function getCar(id) {
   return data;
 }
 
-async function CarPage({ params }) {
-  const car = await getCar(params.id)
+function getCar1(id) {
+  // Asumiendo que cada 'car' en tu arreglo tiene una propiedad 'id'
+  return carsData.cars.find(car => car.id === id);
+}
+
+
+ function CarPage({ params }) {
+  //const car = await getCar(params.id)
+
+  const car = getCar1(params.id)
 
   const slides = car.slides;
 

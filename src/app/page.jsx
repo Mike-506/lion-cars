@@ -1,4 +1,5 @@
-import CarCard from "@/components/CarCard"
+import CarCard from "@/components/CarCard";
+import cars1 from '../carsData/cars.json';
 
 
 async function fetchCars() {
@@ -7,9 +8,11 @@ async function fetchCars() {
   return data;
 }
 
-export default async function HomePage() {
+export default  function HomePage() {
 
-  const cars = await fetchCars()
+ // const cars = await fetchCars()
+
+  const cars = cars1.cars;
 
   return (
     <div className="page">

@@ -9,12 +9,10 @@ async function getCar(id) {
 }
 
 function getCar1(id) {
-  // Asumiendo que cada 'car' en tu arreglo tiene una propiedad 'id'
   return carsData.cars.find(car => car.id === id);
 }
 
-
- function CarPage({ params }) {
+function CarPage({ params }) {
   //const car = await getCar(params.id)
 
   const car = getCar1(params.id)

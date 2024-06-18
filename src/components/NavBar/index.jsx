@@ -67,6 +67,7 @@ const NavBar = () => {
   // Modal Logic
   const openModal = () => {
     setNav(!nav);
+    onScroll();
   }
 
   const closeModal = () => {
